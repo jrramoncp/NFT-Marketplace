@@ -14,16 +14,32 @@
     }
     .nft_data{
         background-color: white;
-        width: 550px;
+        width: 600px;
+        padding: 50px;
         display: grid;
         grid-template-rows: 1fr 1fr;
+        position: relative;
+        bottom: 100px;
+        left: 30px;
+
         }
         .nft_header{
             grid-row: 1;
             display: flex;
             justify-content: space-between;
-            padding: 15px;
-            max-width: 500px;
+            position: relative;
+
+            //DECORATIVE BAR
+            &::before{
+                content: "";
+                width: 550px;
+                height: 1px;
+                display: inline-block;
+                background-color: black;
+                position: absolute;
+                top: 75px;
+                left: -25px;
+            }
             .owner_data{
                 display: flex;
                 gap: 10px;
@@ -41,13 +57,13 @@
                 }
 
         }
-        .nft_buttons{
-            grid-row: 2;
-            display: flex;
-            a{
-                color: black;
-            }
-        }
+
+    }
+    .nft_buttons{
+        grid-row: 2;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
     }
 
 }
