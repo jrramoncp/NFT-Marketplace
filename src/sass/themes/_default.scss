@@ -19,13 +19,13 @@ body {
 
 main{
     display: grid;
-    grid-column: 2fr 1fr;
+    grid-column: 1fr 1fr;
 }
 
-.grid_left{
+.hero{
     grid-column: 1;
 }
 
-.grid_right{
+.content{
     grid-column: 2;
 }
