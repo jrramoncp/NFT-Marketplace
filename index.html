@@ -7,30 +7,77 @@
   </head>
   <body>
     <div id="page">
-      <div class="grid_left">
-        <header class="header-left">
-          <img src="/img/logo-artzie.svg" alt="logo logo-artzie">
+      <!-- HEADER STARTS HERE -->
+      <header class="header">
+        <img src="/img/logo-artzie.svg" alt="logo logo-artzie">
+        <nav>
           <ul class="navbar">
             <li><a href="#">Market</a></li>
             <li><a href="#">How It Works</a></li>
-            <li><a href="#">Galery</a></li>
+            <li><a href="#">Gallery</a></li>
             <li><a href="#">About</a></li>
           </ul>
-        </header>
-      </div>
-
-      <div class="grid_right">
-        <header class="header_right">
+        </nav>
+        <aside>
           <ul>
-            <li><a href="#">Sing Up</a></li>
-            <li><a href="#" class="button">Sign In</a></li>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#" class="sign-button">Sign In</a></li>
           </ul>
-        </header>
-      </div>
-    
+        </aside>
+      </header>
+      <!-- HEADER ENDS HERE -->
+      <!-- MAIN STARTS HERE -->
+      <main>
+        <!-- LEFT GRID STARTS HERE -->
+        <div class="grid_left">
+          <!-- HERO LEFT SECTION STARTS HERE -->
+          <section class="hero_left">
+              <h1>The largest NFT market with exceptional items on the vid</h1>
+              <p>Collectible and non-fungible tokens in your hands</p>
+              <ul>
+                <li><a class="explore-button" href="#">Explore</a></li>
+                <li><a href="#">Learn More</a></li>
+              </ul>
+          </section>
+          <!-- HERO LEFT SECTION ENDS HERE -->
+          <!-- GALERY SECTION STARTS HERE -->
+          <div class="galery">
+            <h2>Featured Artwork</h2>
+            <article>
+              <img src="/img/placeholder_1.png" alt="nft img">
+            </article>
+            <article>
+              <img src="/img/placeholder_2.png" alt="nft img">
+            </article>
+          </div>
+          <!-- GALERY SECTION ENDS HERE -->
+        </div>
+        <!-- LEFT GRID ENDS HERE -->
 
-
+        <!-- RIGHT GRID STARTS HERE -->
+        <div class="grid_right">
+          <figure>
+            <img src="/img/placeholder_3.png" alt="nft image">
+            <figcaption>An image of a NFT currently up for auction </figcaption>
+          </figure>
+          <article class="bid">
+            <div class="user">
+              <p>@samanthaw</p>
+              <p>Artwork #01</p>
+            </div>
+            <div class="current">
+              <p>Current Bid</p>
+              <p>1.00 ETH</p>
+            </div>
+            <a class="bid-button" href="#">Bid Now</a>
+            <a href="#">View Artwork</a>
+          </article>
+        </div>
+      <!-- RIGHT GRID ENDS HERE -->
+      </main>
+      <!-- MAIN ENDS HERE -->
     </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
+
