@@ -1,17 +1,18 @@
 .hero{
+    grid-column: 1;
     margin-top:30px ;
     padding-right: 30px;
     .hero_main{
         h1{
             font-family: $belgrano-font;
-            font-size: 72px;
+            font-size: 75px;
             line-height: 96px;
             font-weight: 500;
             color: $font-primary-color;
             display: inline-block;
             background-image: url(/img/text-decoration.svg);
             background-repeat: no-repeat;
-            background-position-x: 132px;
+            background-position-x: 140px;
 
         }
         p{
@@ -93,22 +94,10 @@
             img {
                 border: 1px solid black;
                 padding: 10px;
-                width: 300px;
+                width: 430px;
             }
         }
 
-    }
-
-
-
-
-
-
-
-
-
-    img{
-        width: 200px;
     }
 
 } 

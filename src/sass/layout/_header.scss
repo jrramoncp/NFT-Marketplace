@@ -11,7 +11,7 @@ header.header{
         gap: 30px;
         a{
             text-decoration: none;
-            font-size: 18px;
+            font-size: 20px;
             color: $font-primary-color;
             &:hover{
                 text-decoration: underline;
@@ -26,6 +26,7 @@ header.header{
                 a{
                     color: white;
                     transition: 0.5s ease;
+                    font-size: 20px;
 
                 }
                 a.sign-button{

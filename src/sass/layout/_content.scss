@@ -1,13 +1,15 @@
 .content{
+    grid-column: 2;
+    align-self: end;
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-end;
     position: relative;
     figure{
         img{
-            max-width: 570px;
-            height: auto ;
-            margin-right: 50px;
+            max-width: 550px;
+            height: 580px ;
+            margin-right: 40px;
         }
         figcaption{
             display: none;
@@ -24,7 +26,7 @@
         align-items: center;
         margin-top: -100px;
         margin-bottom: 50px;
-        margin-right: 40px;
+        margin-right: 10px;
         }
         .nft_header{
             grid-row: 1;
@@ -35,7 +37,7 @@
             //DECORATIVE BAR
             &::before{
                 content: "";
-                width: 550px;
+                width: 450px;
                 height: 1px;
                 display: inline-block;
                 background-color: black;
@@ -101,13 +103,14 @@
             }
         }
     div.numbers{
+        margin-left: 80px;
         ul{
             display: flex;
             gap: 72px;
             li{
                 list-style-type: none;
                 color: white;
-                font-size: 18px;
+                font-size: 20px;
                 display: flex;
                 align-items: center;
                 gap: 10px;
