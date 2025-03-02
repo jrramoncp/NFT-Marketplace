@@ -5,8 +5,9 @@
     position: relative;
     figure{
         img{
-            max-width: 528px;
+            max-width: 570px;
             height: auto ;
+            margin-right: 50px;
         }
         figcaption{
             display: none;
@@ -15,12 +16,15 @@
     .nft_data{
         background-color: white;
         width: 600px;
+        height: auto;
         padding: 30px;
         display: grid;
         grid-template-rows: 1fr 1fr;
         gap: 30px;
-        margin-top: -60px;
-        margin-right: -25px;
+        align-items: center;
+        margin-top: -100px;
+        margin-bottom: 50px;
+        margin-right: 40px;
         }
         .nft_header{
             grid-row: 1;
@@ -59,40 +63,61 @@
         }
 
     }
-    .nft_buttons{
-        grid-row: 2;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        
-        a{
-            color: $button-background-color;
-            text-decoration: none;
-            font-size: 18px;
-            text-align: center;
-            font-weight: 500;
-            width: 50%;
+        .nft_buttons{
+            grid-row: 2;
             display: flex;
-            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+            
+            a{
+                color: $button-background-color;
+                text-decoration: none;
+                font-size: 18px;
+                text-align: center;
+                font-weight: 500;
+                width: 50%;
+                display: flex;
+                justify-content: center;
 
-            &:last-child{
-                &:hover{
-                    text-decoration: underline;
+                &:last-child{
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                    
                 }
+            }
+
+            
+            .bid_button{
+                background-color: $button-background-color;
+                padding: 5px 30px;
+                color: white;
+                transition: 0.5s ease;
                 
+
+                &:hover{
+                    background-color: $background-color-black;
+                }
             }
         }
-
-        
-        .bid_button{
-            background-color: $button-background-color;
-            padding: 5px 30px;
-            color: white;
-            transition: 0.5s ease;
-            
-
-            &:hover{
-                background-color: $background-color-black;
+    div.numbers{
+        ul{
+            display: flex;
+            gap: 72px;
+            li{
+                list-style-type: none;
+                color: white;
+                font-size: 18px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                .red_number{
+                    color: $button-background-color;
+                    font-size: 32px;
+                    font-weight: 600;
+                }
+                
+                
             }
         }
     }
