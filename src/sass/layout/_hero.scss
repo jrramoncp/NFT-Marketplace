@@ -1,3 +1,46 @@
-.hero img{
-    width: 200px;
-}
+.hero{
+    margin-top: 50px ;
+    padding-right: 30px;
+    .hero_main{
+        h1{
+            font-family: $belgrano-font;
+            font-size: 72px;
+            line-height: 96px;
+            font-weight: 500;
+            color: $font-primary-color;
+            display: inline-block;
+            background-image: url(/img/text-decoration.svg);
+            background-repeat: no-repeat;
+            background-position-x: 132px;
+
+        }
+        p{
+            font-size: 24px;
+            color: $font-secondary-color;
+            position: relative;
+            &::before{
+                content: "";
+                width: 85px;
+                height:5px ;
+                background-color: $button-background-color;
+                display: inline-block;
+                position: absolute;
+                top:26px;
+            }
+        }
+    }
+    
+
+
+
+
+
+
+
+
+
+    img{
+        width: 200px;
+    }
+
+} 
