@@ -31,8 +31,8 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
 1. **Clona este repositorio:**
    ```sh
-   git clone https://github.com/jrramoncp/coworking_space
-   cd coworking_space
+   git clone https://github.com/jrramoncp/NFT-Marketplace_header
+   cd NFT-Marketplace_header
    ```
 
 2. **Instala las dependencias:**
@@ -52,7 +52,7 @@ Asegurate de tener Node.js instalado. Luego ejecuta:
 
 ## Uso
 
-Una vez iniciado el servidor de desarrollo, podrás visualizar el encabezado del sitio web del espacio de coworking. Puedes personalizar los estilos y el contenido según las necesidades específicas de tu proyecto.
+Una vez iniciado el servidor de desarrollo, podrás visualizar el encabezado del sitio web. Puedes personalizar los estilos y el contenido según las necesidades específicas de tu proyecto.
 
 ---
 
